@@ -30,3 +30,7 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
+
+HTML files (with embedded Ruby) can be found in app/views.
+
+CSS files (using Sass) can be found in app/assets/stylesheets.
