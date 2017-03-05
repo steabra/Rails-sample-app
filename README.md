@@ -33,4 +33,4 @@ $ rails server
 
 HTML files (with embedded Ruby) can be found in app/views.
 
-CSS files (using Sass) can be found in app/assets/stylesheets.
+CSS (using Sass) can be found in app/assets/stylesheets/custom.scss.

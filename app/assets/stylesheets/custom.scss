@@ -1,6 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/**
+ * Note that many of the selectors are nested,
+ * which is possible because of Sass.
+ */
+
 /* Mixins, varables, etc. */
 
 $gray-medium-light: #eaeaea;
@@ -34,6 +39,7 @@ textarea {
   }
 }
 
+
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,13 +66,13 @@ h2 {
   h4 {
     color: $zelda-green;
   }
-
 }
 
 p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+
 
 /* Header */
 
@@ -83,6 +89,7 @@ p {
     text-decoration: none;
   }
 }
+
 
 /* Navbar specific */
 
@@ -105,14 +112,12 @@ p {
   border-color: $zelda-green;
   &:hover {
     background-color: #055E3C;
-    //border-color: #055E3C;
   }
 }
 
 .nav.navbar-nav.navbar-right a{
   color: white;
 }
-
 
 
 /* Footer */
@@ -141,7 +146,7 @@ footer {
   }
 }
 
-/* miscellaneous */
+/* Miscellaneous */
 
 .debug_dump {
   clear: both;
@@ -151,7 +156,7 @@ footer {
   @include box_sizing;
 }
 
-/* Sidebar */
+/* Sidebar (user profiles). */
 
 aside {
   section.user_info {
@@ -188,6 +193,7 @@ aside {
   margin-top: 15px;
 }
 
+
 /* Forms */
 
 input, textarea, select, .uneditable-input {
@@ -222,6 +228,7 @@ input {
     color: #055E3C;
   }
 }
+
 
 /* Users index */
 
